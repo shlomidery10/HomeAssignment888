@@ -9,12 +9,12 @@ web application that will display list of countries sorted by continents.
 
 ## Installation
  1) run redis server.<br />
- clone the project.
- open the server and use the package manager (npm) and run from terminal "npm i"
- use the package manager (npm) and run from terminal "npm test"    
- use the package manager (npm) and run from terminal "node app.js"
- open the client and use the package manager (npm) and run from terminal "npm i"
- use the package manager (npm) and run from terminal "ng serve --o"
+ 2) clone the project. <br />
+ 3) open the server and use the package manager (npm) and run from terminal "npm i" <br />
+ 4) use the package manager (npm) and run from terminal "npm test"    <br />
+ 5) use the package manager (npm) and run from terminal "node app.js" <br />
+ 6) open the client and use the package manager (npm) and run from terminal "npm i" <br />
+ 7) use the package manager (npm) and run from terminal "ng serve --o" <br />
 
 
 ## Contributing
