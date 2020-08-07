@@ -8,13 +8,13 @@ web application that will display list of countries sorted by continents.
 3) angular.
 
 ## Installation
-1)run redis server.
-2) clone the project.
-3) open the server and use the package manager (npm) and run from terminal "npm i"
-4) use the package manager (npm) and run from terminal "npm test"    
-5) use the package manager (npm) and run from terminal "node app.js"
-6) open the client and use the package manager (npm) and run from terminal "npm i"
-7) use the package manager (npm) and run from terminal "ng serve --o"
+ run redis server.
+ clone the project.
+ open the server and use the package manager (npm) and run from terminal "npm i"
+ use the package manager (npm) and run from terminal "npm test"    
+ use the package manager (npm) and run from terminal "node app.js"
+ open the client and use the package manager (npm) and run from terminal "npm i"
+ use the package manager (npm) and run from terminal "ng serve --o"
 
 
 ## Contributing
