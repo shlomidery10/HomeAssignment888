@@ -1,0 +1,35 @@
+<!-- <mat-card>
+    <mat-card-header>
+        <img mat-card-image  src="https://www.countryflags.io/{{country.code}}/flat/64.png" style="width: 100px;" >
+      <mat-card-title>Code: {{country.code}}</mat-card-title>
+      <mat-card-subtitle>Name: {{country.name}}</mat-card-subtitle>
+    </mat-card-header>
+    Phone: {{country.phone}},
+    capital: {{country.capital}},
+    currency: {{country.currency}},
+    <mat-card-content>
+    <div *ngFor="let language of country.languages;let i = index">
+        language {{i}}: {{language.name}}
+    </div>
+    </mat-card-content>
+  </mat-card> -->
+
+  
+  <div class="card h-100" style="width: 18rem;">
+    <div class="card-body">
+        <img [src]="srcImage" (error)="onError()" style="float: right;">
+      <h5 class="card-title">Code: {{country.code}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Name: {{country.name}}</h6>
+      <div class="card-text">
+        <div *ngIf="country.phone">Phone: {{country.phone}} ,</div>
+        <div *ngIf="country.capital">Capital: {{country.capital}} ,</div>
+        <div *ngIf="country.currency">Currency: {{country.currency}}</div>
+        <div *ngFor="let language of country.languages;let i = index"> 
+        language{{i}}:{{language.name}}
+      </div>
+      </div>
+     
+       <!-- <p *ngFor="let language of country.languages;let i = index">
+        language {{i}}: {{language.name}} </p> -->
+    </div>
+  </div>

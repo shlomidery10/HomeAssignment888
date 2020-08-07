@@ -1,0 +1,10 @@
+<ag-grid-angular 
+	style="width: 500px; height: 250px;margin-left: auto;margin-right: auto;margin-top: 5%;" 
+	class="ag-theme-balham"
+	[rowData]="rowData" 
+    [columnDefs]="columnDefs"
+    [gridOptions]="gridOptions"
+    [rowSelection]="rowSelection"
+    [domLayout]="domLayout"
+    (rowDoubleClicked)="onDoubleClick($event)">
+</ag-grid-angular>
