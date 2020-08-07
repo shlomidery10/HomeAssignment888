@@ -8,7 +8,7 @@ web application that will display list of countries sorted by continents.
 3) angular.
 
 ## Installation
- run redis server.
+ 1) run redis server.
  clone the project.
  open the server and use the package manager (npm) and run from terminal "npm i"
  use the package manager (npm) and run from terminal "npm test"    
